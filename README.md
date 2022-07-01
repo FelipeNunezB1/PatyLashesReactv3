@@ -10,9 +10,9 @@ Paty Lashes es un centro de estéticas el cual consta con diferentes profesional
 
 
 
-Tecnologias utilizadas:.\
+Tecnologias utilizadas:\
     - React: "18.2.0"\
-    - Mui: "5.8.6"\
+    - Mui: "5.8.6"
 
 
 
