@@ -1,3 +1,29 @@
+Topico de especialidad 2: Pagina Web centro de estetica "Paty Lashes"
+
+# Para inicializar el proyecto es necesario instalar npm i, posteriormente npx json-server --watch data/db.json --port 8000 para correr correctamente la aplicacion.
+
+Paty Lashes es un centro de estéticas el cual consta con diferentes profesionales ofreciendo diversos servicios estéticos tales como “Lashes Lifting” - “Cejas” - “Extensión de pestañas”. Los cuales hoy en día el agendamiento de horas para este centro es mediante redes sociales en donde en casos se generan conflictos con la toma de horas. Teniendo un problema critico en esta área.
+
+![image](https://user-images.githubusercontent.com/106933479/176801343-8764c646-e76f-4c2c-a0bb-3c0bac81772e.png)
+
+
+
+
+
+
+
+Tecnologias utilizadas:\
+    - React: "18.2.0"\
+    - Mui: "5.8.6"
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
