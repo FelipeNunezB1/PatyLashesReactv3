@@ -1,29 +1,27 @@
 import ResponsiveAppBar from './Nav'
 import './Eyebrows.css'
-import CardMedia from '@mui/material/CardMedia';
 import React from "react";
-import Button from '@mui/material/Button'
-import Lifting from '../imagenes/Lifting.jpg'
-import PatyLashes from '../imagenes/PatyLashes.jpg'
-import SwipeableTextMobileStepper from '../components/Carrusel'
-import { Box, Container } from '@mui/material';
+import SwipeableTextMobileStepper from './ImgHome'
+
+
 
 const Home = () => {
+
     return (
-        <div class="vacio">
+        <div className="vacio">
             <ResponsiveAppBar />
             {/*   <!-- Titulo y carrusel de imagenes--> */}
-            <div class="titulo-card-estetica">
+            <div className="titulo-card-estetica">
                 <h2>Centro de estética y belleza</h2>
             </div>
-            <div class="container2">
+            <div className="container2">
                 <SwipeableTextMobileStepper />
             </div>
 
             {/*    <!-- div con mensaje de bienvenida--> */}
-            <div class="container1">
-                <div class="card-texto-index">
-                    <div class="card-body">
+            <div className="container1">
+                <div className="card-texto-index">
+                    <div className="card-body">
                         Bienvenidas al centro estético “Paty Lashes” el cual entrega diferentes servicios para lo que
                         necesites,
                         tales como Extensión de pestañas efecto natural, efecto mascara, lifting laminado y ondulados.
@@ -32,16 +30,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-
-            <footer>
-                <Box>
-                    <Container>
-                        
-                    </Container>
-                </Box>
-
-            </footer>
 
         </div>
     )

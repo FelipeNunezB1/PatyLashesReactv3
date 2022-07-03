@@ -3,7 +3,6 @@
 import './styles.css';
 /* import { Carousel } from 'antd'; */
 import CardMedia from '@mui/material/CardMedia';
-import Lifting from '../imagenes/Lifting.jpg'
 import PatyLashes from '../imagenes/PatyLashes.jpg'
 
 
@@ -18,9 +17,10 @@ const contentStyle = {
 
 const App = () => (
     <div>
-         <h3 style={contentStyle}>
+         <h3 style={{contentStyle,  borderRadius: '50px'}}>
                     <CardMedia
                         component="img"
+                        style={{borderRadius: '50px'}}
                         image={PatyLashes}
                         alt="Paella dish"
                     />

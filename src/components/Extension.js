@@ -2,8 +2,9 @@ import ResponsiveAppBar from './Nav'
 import './Eyebrows.css'
 import CardMedia from '@mui/material/CardMedia';
 import React from "react";
-import Button from '@mui/material/Button'
 import extensiondepestañas from '../imagenes/extensiondepestañas.jpg'
+import Modal from '../components/Modal'
+
 
 const Extension = () => {
     return (
@@ -33,9 +34,8 @@ const Extension = () => {
                             <p class="card-text">
                                 - Valor : $5.000
                             </p>
-                            <Button variant="outlined" color="primary" data-bs-toggle="modal" data-bs-target="#modalreserva">
-                                Reservar
-                            </Button>
+                            <Modal />
+
                         </div>
                     </div>
                     <div class="card">
@@ -56,32 +56,11 @@ const Extension = () => {
                             <p class="card-text">
                                 - Valor : $10.000
                             </p>
-                            <Button variant="outlined" color="primary" data-bs-toggle="modal" data-bs-target="#modalreserva">
-                                Reservar
-                            </Button>
-                        </div>
-                    </div>
-                    {/*  <div class="modal justify-content-center" id="modalreserva">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-
-                            <div class="modal-header">
-                                <h4 class="modal-title">Has reservado con exito</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-
-                            <div class="modal-body">
-                                Gracias!!
-                            </div>
-
-                           
-                            <div class="modal-footer justify-content-center">
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                            </div>
+                            <Modal />
 
                         </div>
                     </div>
-                </div> */}
+                
                     <div class="card">
                         <CardMedia
                             component="img"
@@ -100,9 +79,8 @@ const Extension = () => {
                             <p class="card-text">
                                 - Valor : $12.0000
                             </p>
-                            <Button variant="outlined" color="primary" data-bs-toggle="modal" data-bs-target="#modalreserva">
-                                Reservar
-                            </Button>
+                            <Modal />
+
                         </div>
                     </div>
                     <div class="card">
@@ -123,9 +101,8 @@ const Extension = () => {
                             <p class="card-text">
                                 - Valor : $12.000
                             </p>
-                            <Button variant="outlined" color="primary" data-bs-toggle="modal" data-bs-target="#modalreserva">
-                                Reservar
-                            </Button>
+                            <Modal />
+
                         </div>
                     </div>
                     <div class="card">
@@ -146,9 +123,8 @@ const Extension = () => {
                             <p class="card-text">
                                 - Valor : $15.000
                             </p>
-                            <Button variant="outlined" color="primary" data-bs-toggle="modal" data-bs-target="#modalreserva">
-                                Reservar
-                            </Button>
+                            <Modal />
+
                         </div>
                     </div>
                 </div>
