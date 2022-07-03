@@ -1,6 +1,6 @@
 Topico de especialidad 2: Pagina Web centro de estetica "Paty Lashes"
 
-# Para inicializar el proyecto es necesario
+Para inicializar el proyecto es necesario
 instalar npm i, posteriormente\
 npx json-server --watch data/db.json --port 8000 para correr correctamente la aplicacion.
 
