@@ -6,6 +6,9 @@ import Extension from './components/Extension'
 import Home from './components/Home'
 import React from 'react';
 import Reservas from './components/Reservas'
+import UploadContainer from './components/imagenessub/UploadContainer'
+
+
 
 export default function App() {
   return (
@@ -16,6 +19,8 @@ export default function App() {
         <Route path='/Cejas' element={<Eyebrows />} />
         <Route path='/Extension' element={<Extension />} />
         <Route path='/Reservas' element={<Reservas />} />
+        <Route path='/UploadContainer' element={<UploadContainer />} />
+
 
 
       </Routes>

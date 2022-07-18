@@ -15,6 +15,9 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.21.4",
     "auto-bind": "^5.0.1",
+    "axios": "^0.27.2",
+    "axios-version": "^1.0.0",
+    "form-data": "^4.0.0",
     "history": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server -p3001 --watch db.json"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
   }
 }

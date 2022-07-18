@@ -13,12 +13,11 @@
 }
 
 .contenedorFondo {
-	width: 100%;
-	padding: 15px;
-	margin: auto;
-	padding: 12px;
-	max-width: 1300px;
-	display: block;
+	display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
 	background-color: rgb(225 225 225 / 80%);
 
 }

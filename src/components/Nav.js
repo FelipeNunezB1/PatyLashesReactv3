@@ -16,7 +16,7 @@ import { useState } from 'react';
 import eyelashes from '../imagenes/eyelashes.png'
 
 
-const pages = ['Cejas', 'LashLifting', 'Extension', 'Reservas'];
+const pages = ['Cejas', 'LashLifting', 'Extension', 'Reservas', 'UploadContainer'];
 
 function ResponsiveAppBar() {
 
