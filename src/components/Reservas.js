@@ -8,7 +8,6 @@ const Reservas = () => {
     const { data, isPending, error } = UseFetch('http://localhost:8000/reservas')
 
     return (
-
         <div className="contenedor">
             <ResponsiveAppBar />
             <div className="top">

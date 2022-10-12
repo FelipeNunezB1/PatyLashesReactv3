@@ -12,15 +12,7 @@
 
 }
 
-.contenedorFondo {
-	display: grid;
-    grid-template-columns: repeat(auto-fill, 500px);
-    gap: 40px;
-    padding: 40px;
-    justify-content: center;
-	background-color: rgb(225 225 225 / 80%);
 
-}
 
 #extensiondePestañas {
 	width: 100%;
@@ -60,7 +52,7 @@
 	line-height: 58px;
 	bottom: 25px;
 	right: 25px;
-	background: #ed4961;
+	background: #d15265;
 	color: #FFF;
 	border-radius: 50px;
 	text-align: center;
@@ -263,6 +255,7 @@
 .card-texto-index {
 	width: 100%;
 	margin-left: 1rem;
+	margin-bottom: 40px;
 	margin-right: 1rem;
 	font-size: 19px;
 	padding: 25px;
@@ -380,28 +373,49 @@
 	background-color: rgba(0, 0, 0, 0.493);
 	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
-.top{
-	margin-top:80px;
+
+.BotonAgregarNew{
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+.Cardagregadosconboton {
+	color: black;
+	display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    background-color: rgb(97, 89, 89);
+}
+.Botonreservar{
+	justify-content: center;
+	text-align: center;
+}
+
+.top {
+	margin-top: 80px;
 	margin-bottom: 40px;
 }
 
 
-.botonesql{
+.botonesql {
 	color: 'black';
-  text-decoration: none;
-  -webkit-transition: 0.3s all ease;
-  transition: 0.3s ease all;
+	text-decoration: none;
+	-webkit-transition: 0.3s all ease;
+	transition: 0.3s ease all;
 
-  font-size: 20px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  display: inline-block;
-  text-align: center;
-  width: 250px;
-  font-weight: 700;
-  padding: 15px;
-  border: 2px solid #dea1e6;
-  position: relative;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	width: 250px;
+	font-weight: 700;
+	padding: 15px;
+	border: 2px solid #dea1e6;
+	position: relative;
 
 
 }

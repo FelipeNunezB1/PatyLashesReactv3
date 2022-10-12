@@ -20,9 +20,6 @@ export default function App() {
         <Route path='/Extension' element={<Extension />} />
         <Route path='/Reservas' element={<Reservas />} />
         <Route path='/UploadContainer' element={<UploadContainer />} />
-
-
-
       </Routes>
     </BrowserRouter>
   );

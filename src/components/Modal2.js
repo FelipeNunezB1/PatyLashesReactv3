@@ -16,7 +16,9 @@ export default function NestedModal() {
     };
     return (
         <div>
-            <Button variant="outlined" color="primary" onClick={handleOpen}>Reservar</Button>
+            <div className='BotonAgregarNew'>
+                <Button variant="outlined" color="primary" onClick={handleOpen}>Agregar servicio</Button>
+            </div>
             <Modal
                 open={open}
                 onClose={handleClose}
@@ -25,8 +27,8 @@ export default function NestedModal() {
             >
                 <Box className='ModalReserva' sx={{ textAlign: 'center' }} >
                     <div >
-                        { open && <Form2 closeModal={setOpen}/>}
-                        <Button variant="outlined" color="secondary" style={{marginBottom:30}} onClick={handleClose}>Cerrar</Button>
+                        {open && <Form2 closeModal={setOpen} />}
+                        <Button variant="outlined" color="secondary" style={{ marginBottom: 30 }} onClick={handleClose}>Cerrar</Button>
                     </div>
                 </Box>
             </Modal>

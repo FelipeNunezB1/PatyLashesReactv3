@@ -14,18 +14,6 @@ const CardInfo = ({ reservas, name, handleDelete, hora, profesional }) => {
           <p>Descripcion: {reserva.hora}</p>
         </div>
       ))}
-      {/* <CardMedia
-                    component="img"
-                    height="194"
-                    image={Lifting}
-                    alt="Paella dish"
-                />
-                <div class="card-body">
-                    <h5 class="card-title">Perfilado de cejas</h5>
-                    <p class="card-text">-Perfilado normal de cejas</p>
-                    <p class="card-text">- Duracion : 1:30 Hrs</p>
-                    <p class="card-text">- Valor : $5.000</p>
-                </div> */}
       <Modal2 />
     </div>
   );
