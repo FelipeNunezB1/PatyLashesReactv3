@@ -10,31 +10,41 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+
 
 import eyelashes from '../imagenes/eyelashes.png'
 
 
-const pages = ['Cejas', 'LashLifting', 'Extension'];
+const pages = ['Cejas', 'LashLifting', 'Extension', 'Reservas', 'UploadContainer'];
 
 function ResponsiveAppBar() {
 
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-
+  const [isHovering, setIsHovering] = useState(false);
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
 
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+  };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
 
+
   return (
     <AppBar position="static" style={{ background: '#ffffff', color: 'black' }}>
       <Container maxWidth="xl" style={{ background: '#ffffff', color: 'black' }}>
         <Toolbar disableGutters>
-       
+
           <Typography
             variant="h6"
             noWrap
@@ -42,8 +52,9 @@ function ResponsiveAppBar() {
             href="/"
             sx={{
               mr: 2,
+
               color: 'black',
-              display: { xs: 'none', md: 'flex' },
+              display: { xs: 'none', md: 'flex', border: '25px' },
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
@@ -53,7 +64,7 @@ function ResponsiveAppBar() {
             Paty Lashes
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 2, display: { xs: 'flex', md: 'none', } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -68,6 +79,7 @@ function ResponsiveAppBar() {
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
+
                 vertical: 'bottom',
                 horizontal: 'right',
               }}
@@ -92,7 +104,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          
+
           <Typography
             variant="h5"
             noWrap
@@ -105,36 +117,41 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'morado',
               textDecoration: 'none',
             }}
           >
             Paty Lashes
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 2, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
+                variant={isHovering ? "outlined" : ''}
+                color={isHovering ? "secondary" : ''}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
                 key={page}
                 component={Link}
                 to={`/${page}`}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 3, color: 'black', display: 'block', fontWeight: 800 }}
+                sx={{ marginRight: 2, my: 3, color: 'black', display: 'block', fontWeight: 700 }}
               >
                 {page}
               </Button>
             ))}
           </Box>
           <Box
+            variant="outlined"
+            color="secondary"
             component="img"
             noWrap
             href="/"
             sx={{
-              mr:3,
-            height: 64,
+              mr: 3,
+              height: 64,
             }}
             alt="Your logo."
             src={eyelashes}
-        />
+          />
         </Toolbar>
       </Container>
     </AppBar>

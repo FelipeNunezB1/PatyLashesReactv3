@@ -1,0 +1,73 @@
+{
+  "reservas": [
+    {
+      "name": "Andrea",
+      "email": "1@gmail.com",
+      "profesional": "patricia",
+      "hora": "14: 00",
+      "id": 1
+    },
+    {
+      "name": "Sofia",
+      "email": "2@gmail.com",
+      "profesional": "patricia",
+      "hora": "16: 00",
+      "id": 2
+    },
+    {
+      "name": "Julia",
+      "email": "s@test.cl",
+      "profesional": "Patricia",
+      "hora": "15:00",
+      "id": 7
+    },
+    {
+      "name": "Juanito",
+      "email": "patricio@gmail.com",
+      "profesional": "Patricia",
+      "hora": "15:00",
+      "id": 8
+    }
+  ],
+  "cardinfo": [
+    {
+      "titulo": "a",
+      "descripcion": "a",
+      "Precio": "a",
+      "poster_path": "/lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg",
+      "id": 1
+    },
+    {
+      "titulo": "test 2",
+      "descripcion": "test2 ",
+      "Precio": "8luca",
+      "poster_path": "/lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg",
+      "id": 2
+    },
+    {
+      "titulo": "d",
+      "descripcion": "d",
+      "Precio": "d",
+      "poster_path": "/lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg",
+      "id": 3
+    },
+    {
+      "titulo": "1",
+      "descripcion": "1",
+      "Precio": "1",
+      "id": 4
+    },
+    {
+      "titulo": "q",
+      "descripcion": "q",
+      "Precio": "q",
+      "id": 5
+    },
+    {
+      "titulo": "E",
+      "descripcion": "E",
+      "Precio": "454 lucas",
+      "id": 6
+    }
+  ]
+}

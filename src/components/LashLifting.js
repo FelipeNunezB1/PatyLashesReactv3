@@ -6,11 +6,12 @@ import foto1 from '../imagenes/foto1.jpg'
 import Modal from '../components/Modal'
 
 
-const LashLifting = () => {
+
+const LashLifting = (Container) => {
 
     return (
         <div className="contenedor">
-            <ResponsiveAppBar />
+            { <ResponsiveAppBar style={{ background: 'black', color: 'white' }} />}
             <div className="titulo-card-extension" id="Cejas">
                 <h2>Lash Lifting</h2>
             </div>
@@ -18,12 +19,14 @@ const LashLifting = () => {
             <div className="contenedorFondo">
                 <div className="container-cejas">
                     <div className="card">
-                        <CardMedia
-                            component="img"
-                            height="194"
-                            image={foto1}
-                            alt="Paella dish"
-                        />
+                        <div className="img">
+                            <CardMedia
+                                component="img"
+                                height="194"
+                                image={foto1}
+                                alt="Paella dish"
+                            />
+                        </div>
                         <div className="card-body">
                             <h5 className="card-title">Perfilado de cejas</h5>
                             <p className="card-text">
@@ -39,12 +42,14 @@ const LashLifting = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <CardMedia
-                            component="img"
-                            height="194"
-                            image={foto1}
-                            alt="Paella dish"
-                        />
+                        <div className="img">
+                            <CardMedia
+                                component="img"
+                                height="194"
+                                image={foto1}
+                                alt="Paella dish"
+                            />
+                        </div>
                         <div className="card-body">
                             <h5 className="card-title">Visagismo de cejas</h5>
                             <p className="card-text">
@@ -60,12 +65,14 @@ const LashLifting = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <CardMedia
-                            component="img"
-                            height="194"
-                            image={foto1}
-                            alt="Paella dish"
-                        />
+                        <div className="img">
+                            <CardMedia
+                                component="img"
+                                height="194"
+                                image={foto1}
+                                alt="Paella dish"
+                            />
+                        </div>
                         <div className="card-body">
                             <h5 className="card-title">Visagismo y Henna</h5>
                             <p className="card-text">
@@ -81,12 +88,14 @@ const LashLifting = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <CardMedia
-                            component="img"
-                            height="194"
-                            image={foto1}
-                            alt="Paella dish"
-                        />
+                        <div className="img">
+                            <CardMedia
+                                component="img"
+                                height="194"
+                                image={foto1}
+                                alt="Paella dish"
+                            />
+                        </div>
                         <div className="card-body">
                             <h5 className="card-title">Fijacion de cejas</h5>
                             <p className="card-text">
@@ -102,12 +111,14 @@ const LashLifting = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <CardMedia
-                            component="img"
-                            height="194"
-                            image={foto1}
-                            alt="Paella dish"
-                        />
+                        <div className="img">
+                            <CardMedia
+                                component="img"
+                                height="194"
+                                image={foto1}
+                                alt="Paella dish"
+                            />
+                        </div>
                         <div className="card-body">
                             <h5 className="card-title">Brow lamination + botox</h5>
                             <p className="card-text">

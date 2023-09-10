@@ -1,0 +1,47 @@
+{
+  "reservas": [
+    {
+      "name": "Andrea",
+      "email": "1@gmail.com",
+      "profesional": "patricia",
+      "hora": "14: 00",
+      "id": 1
+    },
+    {
+      "name": "Sofia",
+      "email": "2@gmail.com",
+      "profesional": "patricia",
+      "hora": "16: 00",
+      "id": 2
+    },
+    {
+      "name": "Julia",
+      "email": "s@test.cl",
+      "profesional": "Patricia",
+      "hora": "15:00",
+      "id": 7
+    },
+    {
+      "name": "Juanito",
+      "email": "patricio@gmail.com",
+      "profesional": "Patricia",
+      "hora": "15:00",
+      "id": 8
+    },
+    {
+      "name": "felipe",
+      "email": "p@p.com",
+      "profesional": "Valentina",
+      "hora": "15:00",
+      "id": 9
+    }
+  ],
+  "cardinfo": [
+    {
+      "titulo": "1",
+      "descripcion": "01",
+      "precio": "1",
+      "id": 1
+    }
+  ]
+}

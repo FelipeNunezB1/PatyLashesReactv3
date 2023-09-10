@@ -1,0 +1,47 @@
+.movieGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px;
+    padding: 60px;
+    justify-content: center;
+    background-color: rgb(225 225 225 / 80%);
+    text-align: center;
+    /* width: 100%; */
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+
+.movieGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 40px;
+    padding: 60px;
+    justify-items: center;
+    background-color: rgb(225 225 225 / 80%);
+    max-width: 1200px;
+    margin: 0 auto 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .movieGrid {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      padding: 40px;
+      gap: 20px;
+      margin: 40px;
+      background-color: rgb(225 225 225 / 80%);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .movieGrid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      padding: 20px;
+      margin: 40px;
+      gap: 10px;
+      background-color: rgb(225 225 225 / 80%);
+    }
+  }
+  
