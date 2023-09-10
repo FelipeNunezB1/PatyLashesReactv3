@@ -63,6 +63,9 @@
 	transition: all 300ms ease;
 }
 
+.noPaddingInput {
+	padding: 0;
+  }
 
 
 .card:hover {
@@ -71,8 +74,9 @@
 }
 
 .card img {
-	width: 100%;
 	height: auto;
+	padding: 10px;
+	border-radius: 20px;
 }
 
 .card .contenido-card {
@@ -345,7 +349,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background: rgb(225 225 225 / 100%);
-	border-radius: 2rem;
+	border-radius: 10px;
 	padding: 2;
 	box-shadow: 24;
 	width: 400px;
@@ -374,7 +378,7 @@
 	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
-.BotonAgregarNew{
+.BotonAgregarNew {
 	margin: auto;
 	text-align: center;
 	padding: 15px;
@@ -383,13 +387,14 @@
 .Cardagregadosconboton {
 	color: black;
 	display: grid;
-    grid-template-columns: repeat(auto-fill, 270px);
-    gap: 40px;
-    padding: 40px;
-    justify-content: center;
-    background-color: rgb(97, 89, 89);
+	grid-template-columns: repeat(auto-fill, 270px);
+	gap: 40px;
+	padding: 40px;
+	justify-content: center;
+	background-color: rgb(97, 89, 89);
 }
-.Botonreservar{
+
+.Botonreservar {
 	justify-content: center;
 	text-align: center;
 }

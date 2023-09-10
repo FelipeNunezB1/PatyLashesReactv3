@@ -27,9 +27,21 @@
       "profesional": "Patricia",
       "hora": "15:00",
       "id": 8
+    },
+    {
+      "name": "felipe",
+      "email": "p@p.com",
+      "profesional": "Valentina",
+      "hora": "15:00",
+      "id": 9
     }
   ],
   "cardinfo": [
-    
+    {
+      "titulo": "1",
+      "descripcion": "01",
+      "precio": "1",
+      "id": 1
+    }
   ]
 }
