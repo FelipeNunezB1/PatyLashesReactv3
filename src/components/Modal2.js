@@ -2,8 +2,8 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
-import Form2 from './Form2(CardInfo)/Form2'
-import './Eyebrows.css'
+import Form2 from './Form2(CardInfo)/Form2';
+import '../assetsimagescss/css/Eyebrows.css';
 
 
 export default function NestedModal() {

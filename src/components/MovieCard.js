@@ -1,4 +1,4 @@
-import styles from "./MovieCard.module.css";
+import styles from '../assetsimagescss/css/Eyebrows.css'
 
 const MovieCard = ({ movie }) => {
   console.log(styles);

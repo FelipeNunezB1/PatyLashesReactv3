@@ -1,14 +1,15 @@
-import ResponsiveAppBar from './Nav'
-import './Eyebrows.css'
+import ResponsiveAppBar from '../components/navbar/Nav'
+import '../assetsimagescss/css/Eyebrows.css'
 import React from "react";
-import SwipeableTextMobileStepper from './ImgHome'
+import SwipeableTextMobileStepper from '../components/ImgHome'
+import Footer from '../components/Footer/Footer';
 
 
 
 const Home = () => {
 
     return (
-        <div className="vacio">
+        <div className="boody1">
             <ResponsiveAppBar />
             {/*   <!-- Titulo y carrusel de imagenes--> */}
             <div className="titulo-card-estetica">
@@ -30,7 +31,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+            <Footer />
         </div>
     )
 }

@@ -1,5 +1,6 @@
-import styles from "./MovieCard.module.css";
-import foto1 from '../imagenes/foto1.jpg'
+import styles from "../assetsimagescss/css/Eyebrows.css";
+
+import foto1 from '../assetsimagescss/images/foto1.jpg'
 
 
 const MovieCard = ({ cardinfo }) => {

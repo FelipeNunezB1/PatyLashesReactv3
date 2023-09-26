@@ -1,17 +1,19 @@
-import Reserv from './Reserv'
-import UseFetch from './UseFetch'
-import ResponsiveAppBar from './Nav'
-import './Eyebrows.css'
+import Reserv from '../components/Reserv'
+import UseFetch from '../components/UseFetch'
+import ResponsiveAppBar from '../components/navbar/Nav'
+import '../assetsimagescss/css/Eyebrows.css'
+import Footer from '../components/Footer/Footer';
+
 
 
 const Reservas = () => {
     const { data, isPending, error } = UseFetch('http://localhost:8000/reservas')
 
     return (
-        <div className="contenedor">
+        <div className="boody">
             <ResponsiveAppBar />
             <div className="top">
-                <div className="titulo-card-extension" id="Cejas">
+                <div className="titulo-container" id="Cejas">
                     <h2>Reservas</h2>
                 </div>
                 <div className="Reservas">
@@ -20,6 +22,7 @@ const Reservas = () => {
                     {data && <Reserv reservas={data} title="Reservas" />}
                 </div>
             </div>
+            <Footer />
         </div>
 
     );

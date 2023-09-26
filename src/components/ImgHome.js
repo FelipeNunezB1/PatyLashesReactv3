@@ -3,7 +3,7 @@
 import './styles.css';
 /* import { Carousel } from 'antd'; */
 import CardMedia from '@mui/material/CardMedia';
-import PatyLashes from '../imagenes/PatyLashes.jpg'
+import PatyLashes from '../assetsimagescss/images/PatyLashes.jpg'
 
 
 

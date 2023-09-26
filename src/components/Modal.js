@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 import Form1 from '../components/Form1/Form1'
-import './Eyebrows.css'
+import '../assetsimagescss/css/Eyebrows.css'
 
 
 export default function NestedModal() {

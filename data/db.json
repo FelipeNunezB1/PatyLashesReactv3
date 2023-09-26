@@ -30,6 +30,17 @@
     }
   ],
   "cardinfo": [
-    
+    {
+      "titulo": "1",
+      "descripcion": "1",
+      "Precio": "1",
+      "id": 1
+    },
+    {
+      "titulo": "1",
+      "descripcion": "1",
+      "Precio": "1",
+      "id": 2
+    }
   ]
 }

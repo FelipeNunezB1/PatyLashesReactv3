@@ -1,8 +1,8 @@
-import ResponsiveAppBar from './Nav'
-import './Eyebrows.css'
+import ResponsiveAppBar from '../components/navbar/Nav'
+import '../assetsimagescss/css/Eyebrows.css'
 import CardMedia from '@mui/material/CardMedia';
 import React from "react";
-import extensiondepestañas from '../imagenes/extensiondepestañas.jpg'
+import extensiondepestañas from '../assetsimagescss/images/extensiondepestañas.jpg'
 import Modal from '../components/Modal'
 
 
