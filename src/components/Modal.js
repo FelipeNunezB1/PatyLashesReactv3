@@ -2,21 +2,9 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
+import Form1 from '../components/Form1/Form1'
+import '../assetsimagescss/css/Eyebrows.css'
 
-const style = {
-    
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: 'background.paper',
-    border: '2px solid #000',
-    boxShadow: 24,
-    pt: 2,
-    px: 4,
-    pb: 3,
-};
 
 export default function NestedModal() {
     const [open, setOpen] = React.useState(false);
@@ -26,7 +14,6 @@ export default function NestedModal() {
     const handleClose = () => {
         setOpen(false);
     };
-
     return (
         <div>
             <Button variant="outlined" color="primary" onClick={handleOpen}>Reservar</Button>
@@ -36,10 +23,10 @@ export default function NestedModal() {
                 aria-labelledby="parent-modal-title"
                 aria-describedby="parent-modal-description"
             >
-                <Box sx={{ ...style, width: 400, textAlign:'center' }}>
-                    <h2 id="parent-modal-title">Has reservado con exito!</h2>
-                    <div className=''>
-                        <Button variant="outlined" color="secondary" onClick={handleClose}>Cerrar</Button>
+                <Box className='ModalReserva' sx={{ textAlign: 'center' }} >
+                    <div >
+                        { open && <Form1 closeModal={setOpen}/>}
+                        <Button variant="outlined" color="secondary" style={{marginBottom:30}} onClick={handleClose}>Cerrar</Button>
                     </div>
                 </Box>
             </Modal>
